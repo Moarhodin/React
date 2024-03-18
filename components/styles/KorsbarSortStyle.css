@@ -1,0 +1,93 @@
+.bakgrund {
+	position: absolute;
+	width: 14vw;
+       height: 27vh;
+	background-color: white;
+	z-index:6 ;
+	display: flex;
+	justify-content: center;
+    
+}
+
+.info {
+	position: absolute;
+    margin-bottom: 5px;
+	width: 4.5vw;
+       height: 2.6vh;
+	background-color: black;
+	z-index: 7;
+	display: flex;
+	justify-content: center;	
+    left: 11%;
+       top: 80%;
+    cursor: pointer;
+	transition: background-color 0.3s; 
+}
+
+.pris {
+	position: absolute;
+	width: 4.5vw;
+       height: 2.6vh;
+	background-color: black;
+	z-index: 7;
+	display: flex;
+	justify-content: center;
+    text-align: center;
+    left: 58%;
+       top: 80%;	
+}
+
+.rubrikRuta {
+    position: absolute;
+    margin-top:7px ;
+	color: black;
+	font-size: 1.2vw;
+	z-index: 8;
+    max-width: 10vw; 
+}
+
+.textRuta {
+    position: absolute;
+	color: white;
+    margin-top:3.5px ;
+	font-size: 1vw;
+	z-index: 8;
+    text-align: center;
+}
+
+.boxImage {
+    	Position: absolute;
+    	margin-top: 55px;
+     	width: 11vw;
+	height: 12vh;
+	z-index: 7;
+}
+
+.InfoBox {
+       	display: none; 
+       	position: absolute;
+    	width: 14vw;
+       	height: 27vh;
+	background-color: white;
+	z-index: 8; 
+	justify-content: center;
+	align-items: center;
+    	cursor: pointer;
+    	/*max-width: 152px; */
+	max-width: 14vw; 
+	
+	position: relative;
+}
+
+.infoText {
+       color: black;
+	font-size: 1vw;
+}
+
+.closeButton {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	z-index: 5;
+}

@@ -1,0 +1,45 @@
+.bakgrundSort {
+	position: fixed;
+	width: 17vw;
+       	height: 35vh;
+	background-color: #296829;
+	z-index: 6;
+	display: flex;
+	justify-content: center;
+
+}
+
+.bild {
+    	Position: absolute;
+    	margin-top: 65px;
+      	width: 13vw;
+	height: 25vh;
+	z-index: 6;
+}
+
+
+@media screen and (max-height: 662px) {
+
+	.bild{
+		width:80%;
+		height: 60%;
+		margin-top: 35px;
+		
+	} 
+
+	h5{
+		font-size: 4vh;
+	}    
+}
+
+@media screen and (max-width: 990px) {
+	h5{
+		font-size: 2vw;
+	}
+	.bild{
+		width:80%;
+		height: 60%;
+		margin-bottom: 3px;
+		
+	} 
+}

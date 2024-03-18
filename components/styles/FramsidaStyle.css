@@ -1,0 +1,151 @@
+
+.bildspelContainer {
+	position: fixed;
+	bottom: 4%;
+	left: 5%;
+	width: 16vw;
+	height: 20vh;
+	z-index: 5;
+	/*overflow: hidden;*/
+	
+}
+      
+ .bildspelBild {
+	display: none;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+	cursor: pointer;
+}
+      
+.active {
+	display: block; 
+}
+
+#bakgrundsbild {
+	position: fixed; 
+	
+	top: 0;
+	left: 0;
+     	margin: 1cm 0 0 0;
+	width: 100vw; 
+     	height: 66.67vh; 
+	object-fit: cover; 
+	z-index: 4; 
+	
+ }
+ 
+ #rubrikBakgrund {
+	position: fixed;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%; 
+	height: 23%; 
+	background-color: #296829cb;
+	z-index: 5; 
+	/*max-width: 800px; */
+	display: flex;
+	text-align: center;
+	justify-content: center; 
+	align-items: center; 
+	flex-direction: column; 
+	
+ }
+  
+ #infoRuta {
+	position: fixed;
+	bottom: 14%;
+	left: 35%;
+	transform: translate(-50%, 50%);
+	width: 23vw;
+	height: 20vh; 
+	background-color: #296829; 
+	z-index: 6;  
+ 
+	display: flex;
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+	flex-direction: column; 
+	
+ }
+ 
+ 
+ a.instagram-link {
+     	color: white; 
+     	margin-top: 3px; 
+ }
+ 
+ #textRuta {
+	position: fixed;
+	bottom: 14%;
+	left: 83%;
+	transform: translate(-50%, 50%);
+	width: 23vw;
+	height: 20vh;
+	background-color: #296829; 
+	z-index: 7;   
+ 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+	flex-direction: column; 
+	
+ }
+ 
+#videoRuta {
+	position: fixed;
+	bottom: 14%;
+	left: 59%;
+	transform: translate(-50%, 50%);
+	width: 20%;
+	max-width: 297;
+	height: 20%;
+	max-height: 191; 
+	background-color: black; 
+	z-index: 8;   
+	
+	
+}
+
+@media (max-width: 1050px) {
+	h3{
+		font-size:1.2vw;
+	 	max-width: 22vw; 
+		max-height: 19vh;
+	      	overflow-y: auto; 
+	}
+}
+
+@media (max-height: 575px) {
+	#bakgrundsbild{
+		position: absolute;
+		width: 100%;
+		height: 100%
+
+
+	}
+	#rubrikBakgrund{
+		position:absolute;
+		height: 35%;
+	}
+
+	#infoRuta, #videoRuta, #textRuta{
+		position: absolute;
+		top: 100%;
+		height: 40%;
+		
+	}
+	.bildspelContainer{
+		position: absolute;
+		top: 140%	
+	}
+	
+}
+
+
+
+
+     
