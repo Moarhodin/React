@@ -1,0 +1,237 @@
+/*HittaHit*/
+#Karta {
+	Position: fixed;
+	margin-top: 50vh;
+	left:5.5vw;
+	max-width: 100%;
+	width: 20%; 
+	height: auto; 
+	z-index: 4; 
+
+}
+
+@media screen and (max-width: 768px) {
+	#Karta {
+		  
+	      	Position: absolute;
+	      	margin-top: 40vh;
+	      	max-width: 100%;
+		width: 20%; 
+		height: auto; 
+		z-index: 4; 
+		left:3.5vw;
+	}     
+}
+
+@media screen and (max-height: 530px) {
+	#Karta {
+		  
+	      	Position: absolute;
+	      	top: 140px;      
+	}     
+}
+
+#Fordon{
+      position: absolute;;
+	 top: 50%;
+	  left: 42vw;
+	  transform: translate(-50%, -50%);
+	  width: auto; 
+	 height: 90%; 
+	  z-index: 6; 
+}
+
+@media (max-width: 850px) {
+	#Fordon{
+		position: absolute;;
+	 	top: 50%;
+	  	left: 48vw;
+	  	transform: translate(-50%, -50%);
+	  	width: 20%; 
+	 	height: 90%; 
+	  	z-index: 6; 
+	}
+}
+
+#TextBuss{
+      	position: absolute;
+	top: 25vh;
+	right: 5vw; 
+	transform: translate(0, -50%);
+	text-align: center;
+      	max-width: 40%; 
+      	z-index: 7;	
+}
+
+#TextBil{
+      	position: absolute;
+	top: 53vh;
+	right: 5vw; 
+	transform: translate(0, -50%);
+      	margin-top:1px ;
+	margin-bottom:1px ;
+      	text-align: center;
+      	max-width: 40%; 
+      	z-index: 7;	
+}
+
+#TextCykel{
+      	position: absolute;
+	top: 75vh;
+	right: 5vw;
+	transform: translate(0, -50%);
+      	margin-top:1px ;
+	margin-bottom:1px ;
+      	text-align: center;
+      	max-width: 40%; 
+      	z-index: 7;	
+}
+
+@media (max-width: 850px) {
+	#TextBuss,
+	#TextBil,
+	#TextCykel {
+		font-size: 12px; 
+	 	max-width: 30%; 
+	      	overflow-y: auto; 
+	}
+}
+
+/*Krikon*/
+table {
+	border-collapse: collapse;
+	width: 40%;
+	Position: absolute;
+	left: 40%;
+	margin-top: 100px;
+	background-color: #97a997;
+	color: black;
+}
+
+td {
+	border: 2px solid black;
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+    border: 2px solid black;
+	text-align: center;
+	padding: 8px;
+	background-color:#296829;   
+}
+
+/*Om oss*/
+.mail-container {
+	position: absolute;
+	top: 590px;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	padding: 2%;
+	background-color: #296829;
+	z-index: 6;
+	max-width: 20vw;
+	max-height: 35vh;
+}
+
+.mail,.mail label,.mail input,.mail textarea {
+	color: black;
+	display: block;
+	margin-bottom: 0.5vw;
+}
+
+.mail input[type="submit"] {
+	background-color: #97a997;
+	color: black;
+	border: none;
+	padding: 1vw 1vw;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.8vw;
+	margin-top: 0.5vw;
+	cursor: pointer;
+}
+
+/*Text*/
+h1{
+	color: white; 
+	font-size: 4.5vw; 
+	margin-bottom:5px ;
+}
+
+h2{
+	color: white; 
+	font-size: 3vw; 
+	margin-top: 5px;   
+}
+
+h3{
+	color: white; 
+	font-size: 1.0vw; 
+	margin-top:3px ;
+	margin-bottom:3px ;
+	font-size: small;
+}
+
+h4{
+	color: white;
+	font-size: 2.5vw; 
+	margin-top:1px ;
+	margin-bottom:10px ;
+	z-index: 4;
+	margin-top: 70px;
+	max-width: 310px; 
+	text-align: center;	
+}
+
+p{
+	color: white;
+	font-size: 1.5vw; 
+	margin-top:1px ;
+	margin-bottom:1px ;
+	z-index: 5;
+	max-width: 310px; 
+	text-align: center;	
+}
+
+h5{
+	position: absolute;
+	margin-top:12px ;
+	color: white;
+    	font-size: 2.3vw;
+	font-weight: normal;
+	z-index: 7;
+}
+
+h6{
+	color: black;
+	font-size: 1.5vw; 
+	margin-top:1px ;
+	margin-bottom:1px ;
+	max-width: 310px; 
+	text-align: center;
+	z-index:10;	
+	font-style: normal;
+}
+
+.bakgrundfarg{
+	position: fixed;
+	top: 1cm;
+	left: 0%;
+	width: 100%;
+	height: 200vh; 
+	background-color: #97a997;
+	z-index: -10; 
+	display: flex;
+}
+
+#bakgrundfarg2{
+	position: absolute;
+	top: 1cm;
+	left: 0;
+	width: 100%;
+	height: 200vh; 
+	background-color: #97a997;
+	z-index: -10; 
+	display: flex;
+}
